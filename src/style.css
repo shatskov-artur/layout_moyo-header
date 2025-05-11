@@ -39,7 +39,7 @@ body {
   margin: 0;
 }
 
-.is-active:hover {
+.nav__link.is-active:hover {
   color: #00ACDC;
   text-decoration: underline;
 }
@@ -47,7 +47,7 @@ body {
 .is-active::after {
   content: "";
   display: block;
-  border: solid;
+  border-bottom: solid;
   border-radius: 8px;
   color: #00ACDC;
 }
